@@ -1,0 +1,1165 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', 'node' ]
+2 info using npm@3.5.2
+3 info using node@v4.2.6
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData node
+8 silly fetchNamedPackageData node
+9 silly mapToRegistry name node
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/node
+13 verbose request uri https://registry.npmjs.org/node
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 8:48:45 AM
+16 verbose request id 5626ce144fcfb8b3
+17 http request GET https://registry.npmjs.org/node
+18 http 200 https://registry.npmjs.org/node
+19 verbose headers { server: 'nginx/1.10.1',
+19 verbose headers   'content-type': 'application/json',
+19 verbose headers   'last-modified': 'Tue, 25 Jul 2017 03:37:56 GMT',
+19 verbose headers   etag: 'W/"5976bd14-4df89"',
+19 verbose headers   'content-encoding': 'gzip',
+19 verbose headers   'cache-control': 'max-age=300',
+19 verbose headers   'content-length': '51308',
+19 verbose headers   'accept-ranges': 'bytes',
+19 verbose headers   date: 'Sun, 06 Aug 2017 15:48:45 GMT',
+19 verbose headers   via: '1.1 varnish',
+19 verbose headers   age: '0',
+19 verbose headers   connection: 'keep-alive',
+19 verbose headers   'x-served-by': 'cache-jfk8146-JFK',
+19 verbose headers   'x-cache': 'MISS',
+19 verbose headers   'x-cache-hits': '0',
+19 verbose headers   'x-timer': 'S1502034526.527834,VS0,VE23',
+19 verbose headers   vary: 'Accept-Encoding, Accept' }
+20 silly get cb [ 200,
+20 silly get   { server: 'nginx/1.10.1',
+20 silly get     'content-type': 'application/json',
+20 silly get     'last-modified': 'Tue, 25 Jul 2017 03:37:56 GMT',
+20 silly get     etag: 'W/"5976bd14-4df89"',
+20 silly get     'content-encoding': 'gzip',
+20 silly get     'cache-control': 'max-age=300',
+20 silly get     'content-length': '51308',
+20 silly get     'accept-ranges': 'bytes',
+20 silly get     date: 'Sun, 06 Aug 2017 15:48:45 GMT',
+20 silly get     via: '1.1 varnish',
+20 silly get     age: '0',
+20 silly get     connection: 'keep-alive',
+20 silly get     'x-served-by': 'cache-jfk8146-JFK',
+20 silly get     'x-cache': 'MISS',
+20 silly get     'x-cache-hits': '0',
+20 silly get     'x-timer': 'S1502034526.527834,VS0,VE23',
+20 silly get     vary: 'Accept-Encoding, Accept' } ]
+21 verbose get saving node to /home/sturmfrei/.npm/registry.npmjs.org/node/.cache.json
+22 silly install normalizeTree
+23 silly loadCurrentTree Finishing
+24 silly loadIdealTree Starting
+25 silly install loadIdealTree
+26 silly cloneCurrentTree Starting
+27 silly install cloneCurrentTreeToIdealTree
+28 silly cloneCurrentTree Finishing
+29 silly loadShrinkwrap Starting
+30 silly install loadShrinkwrap
+31 silly loadShrinkwrap Finishing
+32 silly loadAllDepsIntoIdealTree Starting
+33 silly install loadAllDepsIntoIdealTree
+34 silly resolveWithNewModule node@8.2.1 checking installable status
+35 silly cache add args [ 'node', null ]
+36 verbose cache add spec node
+37 silly cache add parsed spec Result {
+37 silly cache add   raw: 'node',
+37 silly cache add   scope: null,
+37 silly cache add   name: 'node',
+37 silly cache add   rawSpec: '',
+37 silly cache add   spec: 'latest',
+37 silly cache add   type: 'tag' }
+38 silly addNamed node@latest
+39 verbose addNamed "latest" is being treated as a dist-tag for node
+40 info addNameTag [ 'node', 'latest' ]
+41 silly mapToRegistry name node
+42 silly mapToRegistry using default registry
+43 silly mapToRegistry registry https://registry.npmjs.org/
+44 silly mapToRegistry uri https://registry.npmjs.org/node
+45 verbose addNameTag registry:https://registry.npmjs.org/node not in flight; fetching
+46 verbose get https://registry.npmjs.org/node not expired, no request
+47 silly addNameTag next cb for node with tag latest
+48 silly addNamed node@8.2.1
+49 verbose addNamed "8.2.1" is a plain semver version for node
+50 silly mapToRegistry name node
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry uri https://registry.npmjs.org/node
+54 verbose addRemoteTarball https://registry.npmjs.org/node/-/node-8.2.1.tgz not in flight; adding
+55 verbose addRemoteTarball [ 'https://registry.npmjs.org/node/-/node-8.2.1.tgz',
+55 verbose addRemoteTarball   '860b3f57ef778177320f9b5da8171b6249fe4998' ]
+56 info retry fetch attempt 1 at 8:48:45 AM
+57 info attempt registry request try #1 at 8:48:45 AM
+58 http fetch GET https://registry.npmjs.org/node/-/node-8.2.1.tgz
+59 http fetch 200 https://registry.npmjs.org/node/-/node-8.2.1.tgz
+60 silly fetchAndShaCheck shasum 860b3f57ef778177320f9b5da8171b6249fe4998
+61 verbose addTmpTarball /tmp/npm-5360-271cf6c9/registry.npmjs.org/node/-/node-8.2.1.tgz not in flight; adding
+62 verbose addTmpTarball already have metadata; skipping unpack for node@8.2.1
+63 silly cache afterAdd node@8.2.1
+64 verbose afterAdd /home/sturmfrei/.npm/node/8.2.1/package/package.json not in flight; writing
+65 verbose afterAdd /home/sturmfrei/.npm/node/8.2.1/package/package.json written
+66 silly fetchNamedPackageData node-bin-setup
+67 silly mapToRegistry name node-bin-setup
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry uri https://registry.npmjs.org/node-bin-setup
+71 verbose request uri https://registry.npmjs.org/node-bin-setup
+72 verbose request no auth needed
+73 info attempt registry request try #1 at 8:48:45 AM
+74 http request GET https://registry.npmjs.org/node-bin-setup
+75 http 200 https://registry.npmjs.org/node-bin-setup
+76 verbose headers { server: 'nginx/1.10.1',
+76 verbose headers   'content-type': 'application/json',
+76 verbose headers   'last-modified': 'Tue, 25 Jul 2017 03:32:58 GMT',
+76 verbose headers   etag: 'W/"5976bbea-1511"',
+76 verbose headers   'content-encoding': 'gzip',
+76 verbose headers   'cache-control': 'max-age=300',
+76 verbose headers   'content-length': '1464',
+76 verbose headers   'accept-ranges': 'bytes',
+76 verbose headers   date: 'Sun, 06 Aug 2017 15:48:45 GMT',
+76 verbose headers   via: '1.1 varnish',
+76 verbose headers   age: '0',
+76 verbose headers   connection: 'keep-alive',
+76 verbose headers   'x-served-by': 'cache-jfk8149-JFK',
+76 verbose headers   'x-cache': 'MISS',
+76 verbose headers   'x-cache-hits': '0',
+76 verbose headers   'x-timer': 'S1502034526.894167,VS0,VE7',
+76 verbose headers   vary: 'Accept-Encoding, Accept' }
+77 silly get cb [ 200,
+77 silly get   { server: 'nginx/1.10.1',
+77 silly get     'content-type': 'application/json',
+77 silly get     'last-modified': 'Tue, 25 Jul 2017 03:32:58 GMT',
+77 silly get     etag: 'W/"5976bbea-1511"',
+77 silly get     'content-encoding': 'gzip',
+77 silly get     'cache-control': 'max-age=300',
+77 silly get     'content-length': '1464',
+77 silly get     'accept-ranges': 'bytes',
+77 silly get     date: 'Sun, 06 Aug 2017 15:48:45 GMT',
+77 silly get     via: '1.1 varnish',
+77 silly get     age: '0',
+77 silly get     connection: 'keep-alive',
+77 silly get     'x-served-by': 'cache-jfk8149-JFK',
+77 silly get     'x-cache': 'MISS',
+77 silly get     'x-cache-hits': '0',
+77 silly get     'x-timer': 'S1502034526.894167,VS0,VE7',
+77 silly get     vary: 'Accept-Encoding, Accept' } ]
+78 verbose get saving node-bin-setup to /home/sturmfrei/.npm/registry.npmjs.org/node-bin-setup/.cache.json
+79 silly resolveWithNewModule node-bin-setup@1.0.6 checking installable status
+80 silly cache add args [ 'node-bin-setup@^1.0.0', null ]
+81 verbose cache add spec node-bin-setup@^1.0.0
+82 silly cache add parsed spec Result {
+82 silly cache add   raw: 'node-bin-setup@^1.0.0',
+82 silly cache add   scope: null,
+82 silly cache add   name: 'node-bin-setup',
+82 silly cache add   rawSpec: '^1.0.0',
+82 silly cache add   spec: '>=1.0.0 <2.0.0',
+82 silly cache add   type: 'range' }
+83 silly addNamed node-bin-setup@>=1.0.0 <2.0.0
+84 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for node-bin-setup
+85 silly addNameRange { name: 'node-bin-setup',
+85 silly addNameRange   range: '>=1.0.0 <2.0.0',
+85 silly addNameRange   hasData: false }
+86 silly mapToRegistry name node-bin-setup
+87 silly mapToRegistry using default registry
+88 silly mapToRegistry registry https://registry.npmjs.org/
+89 silly mapToRegistry uri https://registry.npmjs.org/node-bin-setup
+90 verbose addNameRange registry:https://registry.npmjs.org/node-bin-setup not in flight; fetching
+91 verbose get https://registry.npmjs.org/node-bin-setup not expired, no request
+92 silly addNameRange number 2 { name: 'node-bin-setup',
+92 silly addNameRange   range: '>=1.0.0 <2.0.0',
+92 silly addNameRange   hasData: true }
+93 silly addNameRange versions [ 'node-bin-setup',
+93 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4', '1.0.6' ] ]
+94 silly addNamed node-bin-setup@1.0.6
+95 verbose addNamed "1.0.6" is a plain semver version for node-bin-setup
+96 silly mapToRegistry name node-bin-setup
+97 silly mapToRegistry using default registry
+98 silly mapToRegistry registry https://registry.npmjs.org/
+99 silly mapToRegistry uri https://registry.npmjs.org/node-bin-setup
+100 verbose addRemoteTarball https://registry.npmjs.org/node-bin-setup/-/node-bin-setup-1.0.6.tgz not in flight; adding
+101 verbose addRemoteTarball [ 'https://registry.npmjs.org/node-bin-setup/-/node-bin-setup-1.0.6.tgz',
+101 verbose addRemoteTarball   '4b5c9bb937ece702d7069b36ca78af4684677528' ]
+102 info retry fetch attempt 1 at 8:48:45 AM
+103 info attempt registry request try #1 at 8:48:45 AM
+104 http fetch GET https://registry.npmjs.org/node-bin-setup/-/node-bin-setup-1.0.6.tgz
+105 http fetch 200 https://registry.npmjs.org/node-bin-setup/-/node-bin-setup-1.0.6.tgz
+106 silly fetchAndShaCheck shasum 4b5c9bb937ece702d7069b36ca78af4684677528
+107 verbose addTmpTarball /tmp/npm-5360-271cf6c9/registry.npmjs.org/node-bin-setup/-/node-bin-setup-1.0.6.tgz not in flight; adding
+108 verbose addTmpTarball already have metadata; skipping unpack for node-bin-setup@1.0.6
+109 silly cache afterAdd node-bin-setup@1.0.6
+110 verbose afterAdd /home/sturmfrei/.npm/node-bin-setup/1.0.6/package/package.json not in flight; writing
+111 verbose afterAdd /home/sturmfrei/.npm/node-bin-setup/1.0.6/package/package.json written
+112 silly fetchNamedPackageData fsevents
+113 silly mapToRegistry name fsevents
+114 silly mapToRegistry using default registry
+115 silly mapToRegistry registry https://registry.npmjs.org/
+116 silly mapToRegistry uri https://registry.npmjs.org/fsevents
+117 verbose request uri https://registry.npmjs.org/fsevents
+118 verbose request no auth needed
+119 info attempt registry request try #1 at 8:48:46 AM
+120 verbose etag W/"597215e7-dd9a"
+121 verbose lastModified Fri, 21 Jul 2017 14:55:35 GMT
+122 http request GET https://registry.npmjs.org/fsevents
+123 http 304 https://registry.npmjs.org/fsevents
+124 verbose headers { date: 'Sun, 06 Aug 2017 15:48:46 GMT',
+124 verbose headers   via: '1.1 varnish',
+124 verbose headers   'cache-control': 'max-age=300',
+124 verbose headers   etag: 'W/"597215e7-dd9a"',
+124 verbose headers   age: '245',
+124 verbose headers   connection: 'keep-alive',
+124 verbose headers   'x-served-by': 'cache-jfk8140-JFK',
+124 verbose headers   'x-cache': 'HIT',
+124 verbose headers   'x-cache-hits': '4',
+124 verbose headers   'x-timer': 'S1502034526.122732,VS0,VE0',
+124 verbose headers   vary: 'Accept-Encoding, Accept' }
+125 silly get cb [ 304,
+125 silly get   { date: 'Sun, 06 Aug 2017 15:48:46 GMT',
+125 silly get     via: '1.1 varnish',
+125 silly get     'cache-control': 'max-age=300',
+125 silly get     etag: 'W/"597215e7-dd9a"',
+125 silly get     age: '245',
+125 silly get     connection: 'keep-alive',
+125 silly get     'x-served-by': 'cache-jfk8140-JFK',
+125 silly get     'x-cache': 'HIT',
+125 silly get     'x-cache-hits': '4',
+125 silly get     'x-timer': 'S1502034526.122732,VS0,VE0',
+125 silly get     vary: 'Accept-Encoding, Accept' } ]
+126 verbose etag https://registry.npmjs.org/fsevents from cache
+127 verbose get saving fsevents to /home/sturmfrei/.npm/registry.npmjs.org/fsevents/.cache.json
+128 silly resolveWithNewModule fsevents@1.1.2 checking installable status
+129 silly fetchNamedPackageData decamelize
+130 silly mapToRegistry name decamelize
+131 silly mapToRegistry using default registry
+132 silly mapToRegistry registry https://registry.npmjs.org/
+133 silly mapToRegistry uri https://registry.npmjs.org/decamelize
+134 verbose request uri https://registry.npmjs.org/decamelize
+135 verbose request no auth needed
+136 info attempt registry request try #1 at 8:48:46 AM
+137 verbose etag W/"595b9d0f-202f"
+138 verbose lastModified Tue, 04 Jul 2017 13:50:07 GMT
+139 http request GET https://registry.npmjs.org/decamelize
+140 http 304 https://registry.npmjs.org/decamelize
+141 verbose headers { date: 'Sun, 06 Aug 2017 15:48:46 GMT',
+141 verbose headers   via: '1.1 varnish',
+141 verbose headers   'cache-control': 'max-age=300',
+141 verbose headers   etag: 'W/"595b9d0f-202f"',
+141 verbose headers   age: '258',
+141 verbose headers   connection: 'keep-alive',
+141 verbose headers   'x-served-by': 'cache-jfk8147-JFK',
+141 verbose headers   'x-cache': 'HIT',
+141 verbose headers   'x-cache-hits': '1',
+141 verbose headers   'x-timer': 'S1502034526.323664,VS0,VE0',
+141 verbose headers   vary: 'Accept-Encoding, Accept' }
+142 silly get cb [ 304,
+142 silly get   { date: 'Sun, 06 Aug 2017 15:48:46 GMT',
+142 silly get     via: '1.1 varnish',
+142 silly get     'cache-control': 'max-age=300',
+142 silly get     etag: 'W/"595b9d0f-202f"',
+142 silly get     age: '258',
+142 silly get     connection: 'keep-alive',
+142 silly get     'x-served-by': 'cache-jfk8147-JFK',
+142 silly get     'x-cache': 'HIT',
+142 silly get     'x-cache-hits': '1',
+142 silly get     'x-timer': 'S1502034526.323664,VS0,VE0',
+142 silly get     vary: 'Accept-Encoding, Accept' } ]
+143 verbose etag https://registry.npmjs.org/decamelize from cache
+144 verbose get saving decamelize to /home/sturmfrei/.npm/registry.npmjs.org/decamelize/.cache.json
+145 silly resolveWithNewModule decamelize@1.2.0 checking installable status
+146 silly cache add args [ 'decamelize@^1.1.1', null ]
+147 verbose cache add spec decamelize@^1.1.1
+148 silly cache add parsed spec Result {
+148 silly cache add   raw: 'decamelize@^1.1.1',
+148 silly cache add   scope: null,
+148 silly cache add   name: 'decamelize',
+148 silly cache add   rawSpec: '^1.1.1',
+148 silly cache add   spec: '>=1.1.1 <2.0.0',
+148 silly cache add   type: 'range' }
+149 silly addNamed decamelize@>=1.1.1 <2.0.0
+150 verbose addNamed ">=1.1.1 <2.0.0" is a valid semver range for decamelize
+151 silly addNameRange { name: 'decamelize', range: '>=1.1.1 <2.0.0', hasData: false }
+152 silly mapToRegistry name decamelize
+153 silly mapToRegistry using default registry
+154 silly mapToRegistry registry https://registry.npmjs.org/
+155 silly mapToRegistry uri https://registry.npmjs.org/decamelize
+156 verbose addNameRange registry:https://registry.npmjs.org/decamelize not in flight; fetching
+157 verbose get https://registry.npmjs.org/decamelize not expired, no request
+158 silly addNameRange number 2 { name: 'decamelize', range: '>=1.1.1 <2.0.0', hasData: true }
+159 silly addNameRange versions [ 'decamelize',
+159 silly addNameRange   [ '1.0.0', '1.1.0', '1.1.1', '1.1.2', '1.2.0' ] ]
+160 silly addNamed decamelize@1.2.0
+161 verbose addNamed "1.2.0" is a plain semver version for decamelize
+162 silly cache afterAdd decamelize@1.2.0
+163 verbose afterAdd /home/sturmfrei/.npm/decamelize/1.2.0/package/package.json not in flight; writing
+164 verbose afterAdd /home/sturmfrei/.npm/decamelize/1.2.0/package/package.json written
+165 silly loadAllDepsIntoIdealTree Finishing
+166 silly idealTree:prePrune sturmfrei-static@1.0.0
+166 silly idealTree:prePrune ├─┬ acorn-dynamic-import@2.0.2
+166 silly idealTree:prePrune │ └── acorn@4.0.13
+166 silly idealTree:prePrune ├── acorn@5.1.1
+166 silly idealTree:prePrune ├── ajv-keywords@2.1.0
+166 silly idealTree:prePrune ├── ajv@5.2.2
+166 silly idealTree:prePrune ├── ansi-regex@2.1.1
+166 silly idealTree:prePrune ├── anymatch@1.3.2
+166 silly idealTree:prePrune ├── arr-diff@2.0.0
+166 silly idealTree:prePrune ├── arr-flatten@1.1.0
+166 silly idealTree:prePrune ├── array-unique@0.2.1
+166 silly idealTree:prePrune ├── asn1.js@4.9.1
+166 silly idealTree:prePrune ├── assert@1.4.1
+166 silly idealTree:prePrune ├── async-each@1.0.1
+166 silly idealTree:prePrune ├── async@2.5.0
+166 silly idealTree:prePrune ├── balanced-match@1.0.0
+166 silly idealTree:prePrune ├── base64-js@1.2.1
+166 silly idealTree:prePrune ├── big.js@3.1.3
+166 silly idealTree:prePrune ├── binary-extensions@1.9.0
+166 silly idealTree:prePrune ├── bn.js@4.11.7
+166 silly idealTree:prePrune ├── brace-expansion@1.1.8
+166 silly idealTree:prePrune ├── braces@1.8.5
+166 silly idealTree:prePrune ├── brorand@1.1.0
+166 silly idealTree:prePrune ├── browserify-aes@1.0.6
+166 silly idealTree:prePrune ├── browserify-cipher@1.0.0
+166 silly idealTree:prePrune ├── browserify-des@1.0.0
+166 silly idealTree:prePrune ├── browserify-rsa@4.0.1
+166 silly idealTree:prePrune ├── browserify-sign@4.0.4
+166 silly idealTree:prePrune ├── browserify-zlib@0.1.4
+166 silly idealTree:prePrune ├── buffer-xor@1.0.3
+166 silly idealTree:prePrune ├── buffer@4.9.1
+166 silly idealTree:prePrune ├── builtin-modules@1.1.1
+166 silly idealTree:prePrune ├── builtin-status-codes@3.0.0
+166 silly idealTree:prePrune ├── chokidar@1.7.0
+166 silly idealTree:prePrune ├── cipher-base@1.0.4
+166 silly idealTree:prePrune ├── co@4.6.0
+166 silly idealTree:prePrune ├── code-point-at@1.1.0
+166 silly idealTree:prePrune ├── concat-map@0.0.1
+166 silly idealTree:prePrune ├── console-browserify@1.1.0
+166 silly idealTree:prePrune ├── constants-browserify@1.0.0
+166 silly idealTree:prePrune ├── core-util-is@1.0.2
+166 silly idealTree:prePrune ├── create-ecdh@4.0.0
+166 silly idealTree:prePrune ├── create-hash@1.1.3
+166 silly idealTree:prePrune ├── create-hmac@1.1.6
+166 silly idealTree:prePrune ├── cross-spawn@5.1.0
+166 silly idealTree:prePrune ├── crypto-browserify@3.11.1
+166 silly idealTree:prePrune ├── d@1.0.0
+166 silly idealTree:prePrune ├── date-now@0.1.4
+166 silly idealTree:prePrune ├── decamelize@1.2.0
+166 silly idealTree:prePrune ├── des.js@1.0.0
+166 silly idealTree:prePrune ├── diffie-hellman@5.0.2
+166 silly idealTree:prePrune ├── dom-walk@0.1.1
+166 silly idealTree:prePrune ├── domain-browser@1.1.7
+166 silly idealTree:prePrune ├── elliptic@6.4.0
+166 silly idealTree:prePrune ├── emojis-list@2.1.0
+166 silly idealTree:prePrune ├── enhanced-resolve@3.4.1
+166 silly idealTree:prePrune ├── errno@0.1.4
+166 silly idealTree:prePrune ├── error-ex@1.3.1
+166 silly idealTree:prePrune ├── es5-ext@0.10.26
+166 silly idealTree:prePrune ├── es6-iterator@2.0.1
+166 silly idealTree:prePrune ├── es6-map@0.1.5
+166 silly idealTree:prePrune ├── es6-set@0.1.5
+166 silly idealTree:prePrune ├── es6-symbol@3.1.1
+166 silly idealTree:prePrune ├── es6-weak-map@2.0.2
+166 silly idealTree:prePrune ├── escope@3.6.0
+166 silly idealTree:prePrune ├── esrecurse@4.2.0
+166 silly idealTree:prePrune ├── estraverse@4.2.0
+166 silly idealTree:prePrune ├── event-emitter@0.3.5
+166 silly idealTree:prePrune ├── events@1.1.1
+166 silly idealTree:prePrune ├── evp_bytestokey@1.0.0
+166 silly idealTree:prePrune ├── execa@0.7.0
+166 silly idealTree:prePrune ├── expand-brackets@0.1.5
+166 silly idealTree:prePrune ├── expand-range@1.8.2
+166 silly idealTree:prePrune ├── extglob@0.3.2
+166 silly idealTree:prePrune ├── fast-deep-equal@1.0.0
+166 silly idealTree:prePrune ├── filename-regex@2.0.1
+166 silly idealTree:prePrune ├── fill-range@2.2.3
+166 silly idealTree:prePrune ├── find-up@2.1.0
+166 silly idealTree:prePrune ├── for-in@1.0.2
+166 silly idealTree:prePrune ├── for-own@0.1.5
+166 silly idealTree:prePrune ├── get-caller-file@1.0.2
+166 silly idealTree:prePrune ├── get-stream@3.0.0
+166 silly idealTree:prePrune ├── glob-base@0.3.0
+166 silly idealTree:prePrune ├── glob-parent@2.0.0
+166 silly idealTree:prePrune ├─┬ global@4.3.2
+166 silly idealTree:prePrune │ └── process@0.5.2
+166 silly idealTree:prePrune ├── graceful-fs@4.1.11
+166 silly idealTree:prePrune ├── has-flag@2.0.0
+166 silly idealTree:prePrune ├── hash-base@2.0.2
+166 silly idealTree:prePrune ├── hash.js@1.1.3
+166 silly idealTree:prePrune ├── hmac-drbg@1.0.1
+166 silly idealTree:prePrune ├── hosted-git-info@2.5.0
+166 silly idealTree:prePrune ├── https-browserify@0.0.1
+166 silly idealTree:prePrune ├── ieee754@1.1.8
+166 silly idealTree:prePrune ├── indexof@0.0.1
+166 silly idealTree:prePrune ├── inherits@2.0.3
+166 silly idealTree:prePrune ├── interpret@1.0.3
+166 silly idealTree:prePrune ├── invert-kv@1.0.0
+166 silly idealTree:prePrune ├── is-arrayish@0.2.1
+166 silly idealTree:prePrune ├── is-binary-path@1.0.1
+166 silly idealTree:prePrune ├── is-buffer@1.1.5
+166 silly idealTree:prePrune ├── is-builtin-module@1.0.0
+166 silly idealTree:prePrune ├── is-dotfile@1.0.3
+166 silly idealTree:prePrune ├── is-equal-shallow@0.1.3
+166 silly idealTree:prePrune ├── is-extendable@0.1.1
+166 silly idealTree:prePrune ├── is-extglob@1.0.0
+166 silly idealTree:prePrune ├── is-fullwidth-code-point@1.0.0
+166 silly idealTree:prePrune ├── is-glob@2.0.1
+166 silly idealTree:prePrune ├── is-number@2.1.0
+166 silly idealTree:prePrune ├── is-posix-bracket@0.1.1
+166 silly idealTree:prePrune ├── is-primitive@2.0.0
+166 silly idealTree:prePrune ├── is-stream@1.1.0
+166 silly idealTree:prePrune ├── isarray@1.0.0
+166 silly idealTree:prePrune ├── isexe@2.0.0
+166 silly idealTree:prePrune ├── isobject@2.1.0
+166 silly idealTree:prePrune ├── json-loader@0.5.7
+166 silly idealTree:prePrune ├── json-schema-traverse@0.3.1
+166 silly idealTree:prePrune ├── json-stable-stringify@1.0.1
+166 silly idealTree:prePrune ├── json5@0.5.1
+166 silly idealTree:prePrune ├── jsonify@0.0.0
+166 silly idealTree:prePrune ├── kind-of@3.2.2
+166 silly idealTree:prePrune ├── lcid@1.0.0
+166 silly idealTree:prePrune ├── load-json-file@2.0.0
+166 silly idealTree:prePrune ├── loader-runner@2.3.0
+166 silly idealTree:prePrune ├── loader-utils@1.1.0
+166 silly idealTree:prePrune ├── locate-path@2.0.0
+166 silly idealTree:prePrune ├── lodash@4.17.4
+166 silly idealTree:prePrune ├── lru-cache@4.1.1
+166 silly idealTree:prePrune ├── mem@1.1.0
+166 silly idealTree:prePrune ├── memory-fs@0.4.1
+166 silly idealTree:prePrune ├── micromatch@2.3.11
+166 silly idealTree:prePrune ├── miller-rabin@4.0.0
+166 silly idealTree:prePrune ├── mimic-fn@1.1.0
+166 silly idealTree:prePrune ├── min-document@2.19.0
+166 silly idealTree:prePrune ├── minimalistic-assert@1.0.0
+166 silly idealTree:prePrune ├── minimalistic-crypto-utils@1.0.1
+166 silly idealTree:prePrune ├── minimatch@3.0.4
+166 silly idealTree:prePrune ├── minimist@0.0.8
+166 silly idealTree:prePrune ├── mkdirp@0.5.1
+166 silly idealTree:prePrune ├── node-bin-setup@1.0.6
+166 silly idealTree:prePrune ├─┬ node-libs-browser@2.0.0
+166 silly idealTree:prePrune │ └── string_decoder@0.10.31
+166 silly idealTree:prePrune ├── node@8.2.1
+166 silly idealTree:prePrune ├── normalize-package-data@2.4.0
+166 silly idealTree:prePrune ├── normalize-path@2.1.1
+166 silly idealTree:prePrune ├── npm-run-path@2.0.2
+166 silly idealTree:prePrune ├── number-is-nan@1.0.1
+166 silly idealTree:prePrune ├── object-assign@4.1.1
+166 silly idealTree:prePrune ├── object.omit@2.0.1
+166 silly idealTree:prePrune ├── os-browserify@0.2.1
+166 silly idealTree:prePrune ├── os-locale@2.1.0
+166 silly idealTree:prePrune ├── p-finally@1.0.0
+166 silly idealTree:prePrune ├── p-limit@1.1.0
+166 silly idealTree:prePrune ├── p-locate@2.0.0
+166 silly idealTree:prePrune ├── pako@0.2.9
+166 silly idealTree:prePrune ├── parse-asn1@5.1.0
+166 silly idealTree:prePrune ├── parse-glob@3.0.4
+166 silly idealTree:prePrune ├── parse-json@2.2.0
+166 silly idealTree:prePrune ├── path-browserify@0.0.0
+166 silly idealTree:prePrune ├── path-exists@3.0.0
+166 silly idealTree:prePrune ├── path-is-absolute@1.0.1
+166 silly idealTree:prePrune ├── path-key@2.0.1
+166 silly idealTree:prePrune ├── path-type@2.0.0
+166 silly idealTree:prePrune ├── pbkdf2@3.0.13
+166 silly idealTree:prePrune ├── pify@2.3.0
+166 silly idealTree:prePrune ├── preserve@0.2.0
+166 silly idealTree:prePrune ├── process-nextick-args@1.0.7
+166 silly idealTree:prePrune ├── process@0.11.10
+166 silly idealTree:prePrune ├── prr@0.0.0
+166 silly idealTree:prePrune ├── pseudomap@1.0.2
+166 silly idealTree:prePrune ├── public-encrypt@4.0.0
+166 silly idealTree:prePrune ├── punycode@1.4.1
+166 silly idealTree:prePrune ├── querystring-es3@0.2.1
+166 silly idealTree:prePrune ├── querystring@0.2.0
+166 silly idealTree:prePrune ├─┬ randomatic@1.1.7
+166 silly idealTree:prePrune │ ├─┬ is-number@3.0.0
+166 silly idealTree:prePrune │ │ └── kind-of@3.2.2
+166 silly idealTree:prePrune │ └── kind-of@4.0.0
+166 silly idealTree:prePrune ├── randombytes@2.0.5
+166 silly idealTree:prePrune ├── read-pkg-up@2.0.0
+166 silly idealTree:prePrune ├── read-pkg@2.0.0
+166 silly idealTree:prePrune ├── readable-stream@2.3.3
+166 silly idealTree:prePrune ├── readdirp@2.1.0
+166 silly idealTree:prePrune ├── regex-cache@0.4.3
+166 silly idealTree:prePrune ├── remove-trailing-separator@1.0.2
+166 silly idealTree:prePrune ├── repeat-element@1.1.2
+166 silly idealTree:prePrune ├── repeat-string@1.6.1
+166 silly idealTree:prePrune ├── require-directory@2.1.1
+166 silly idealTree:prePrune ├── require-main-filename@1.0.1
+166 silly idealTree:prePrune ├── ripemd160@2.0.1
+166 silly idealTree:prePrune ├── safe-buffer@5.1.1
+166 silly idealTree:prePrune ├── semver@5.4.1
+166 silly idealTree:prePrune ├── set-blocking@2.0.0
+166 silly idealTree:prePrune ├── set-immediate-shim@1.0.1
+166 silly idealTree:prePrune ├── setimmediate@1.0.5
+166 silly idealTree:prePrune ├── sha.js@2.4.8
+166 silly idealTree:prePrune ├── shebang-command@1.2.0
+166 silly idealTree:prePrune ├── shebang-regex@1.0.0
+166 silly idealTree:prePrune ├── signal-exit@3.0.2
+166 silly idealTree:prePrune ├── source-list-map@2.0.0
+166 silly idealTree:prePrune ├── source-map@0.5.6
+166 silly idealTree:prePrune ├── spdx-correct@1.0.2
+166 silly idealTree:prePrune ├── spdx-expression-parse@1.0.4
+166 silly idealTree:prePrune ├── spdx-license-ids@1.2.2
+166 silly idealTree:prePrune ├── stream-browserify@2.0.1
+166 silly idealTree:prePrune ├── stream-http@2.7.2
+166 silly idealTree:prePrune ├── string_decoder@1.0.3
+166 silly idealTree:prePrune ├─┬ string-width@2.1.1
+166 silly idealTree:prePrune │ ├── ansi-regex@3.0.0
+166 silly idealTree:prePrune │ ├── is-fullwidth-code-point@2.0.0
+166 silly idealTree:prePrune │ └── strip-ansi@4.0.0
+166 silly idealTree:prePrune ├── strip-ansi@3.0.1
+166 silly idealTree:prePrune ├── strip-bom@3.0.0
+166 silly idealTree:prePrune ├── strip-eof@1.0.0
+166 silly idealTree:prePrune ├── supports-color@4.2.1
+166 silly idealTree:prePrune ├── tapable@0.2.8
+166 silly idealTree:prePrune ├── timers-browserify@2.0.3
+166 silly idealTree:prePrune ├── to-arraybuffer@1.0.1
+166 silly idealTree:prePrune ├── tty-browserify@0.0.0
+166 silly idealTree:prePrune ├─┬ url@0.11.0
+166 silly idealTree:prePrune │ └── punycode@1.3.2
+166 silly idealTree:prePrune ├── util-deprecate@1.0.2
+166 silly idealTree:prePrune ├─┬ util@0.10.3
+166 silly idealTree:prePrune │ └── inherits@2.0.1
+166 silly idealTree:prePrune ├── validate-npm-package-license@3.0.1
+166 silly idealTree:prePrune ├── vm-browserify@0.0.4
+166 silly idealTree:prePrune ├── watchpack@1.4.0
+166 silly idealTree:prePrune ├── webpack-sources@1.0.1
+166 silly idealTree:prePrune ├── which-module@2.0.0
+166 silly idealTree:prePrune ├── which@1.3.0
+166 silly idealTree:prePrune ├─┬ wrap-ansi@2.1.0
+166 silly idealTree:prePrune │ └── string-width@1.0.2
+166 silly idealTree:prePrune ├── xtend@4.0.1
+166 silly idealTree:prePrune ├── y18n@3.2.1
+166 silly idealTree:prePrune ├── yallist@2.1.2
+166 silly idealTree:prePrune ├─┬ yargs-parser@7.0.0
+166 silly idealTree:prePrune │ └── camelcase@4.1.0
+166 silly idealTree:prePrune └─┬ yargs@8.0.2
+166 silly idealTree:prePrune   ├── camelcase@4.1.0
+166 silly idealTree:prePrune   └─┬ cliui@3.2.0
+166 silly idealTree:prePrune     └── string-width@1.0.2
+167 silly loadIdealTree Finishing
+168 silly currentTree sturmfrei-static@1.0.0
+168 silly currentTree ├─┬ acorn-dynamic-import@2.0.2
+168 silly currentTree │ └── acorn@4.0.13
+168 silly currentTree ├── acorn@5.1.1
+168 silly currentTree ├── ajv-keywords@2.1.0
+168 silly currentTree ├── ajv@5.2.2
+168 silly currentTree ├── ansi-regex@2.1.1
+168 silly currentTree ├── anymatch@1.3.2
+168 silly currentTree ├── arr-diff@2.0.0
+168 silly currentTree ├── arr-flatten@1.1.0
+168 silly currentTree ├── array-unique@0.2.1
+168 silly currentTree ├── asn1.js@4.9.1
+168 silly currentTree ├── assert@1.4.1
+168 silly currentTree ├── async-each@1.0.1
+168 silly currentTree ├── async@2.5.0
+168 silly currentTree ├── balanced-match@1.0.0
+168 silly currentTree ├── base64-js@1.2.1
+168 silly currentTree ├── big.js@3.1.3
+168 silly currentTree ├── binary-extensions@1.9.0
+168 silly currentTree ├── bn.js@4.11.7
+168 silly currentTree ├── brace-expansion@1.1.8
+168 silly currentTree ├── braces@1.8.5
+168 silly currentTree ├── brorand@1.1.0
+168 silly currentTree ├── browserify-aes@1.0.6
+168 silly currentTree ├── browserify-cipher@1.0.0
+168 silly currentTree ├── browserify-des@1.0.0
+168 silly currentTree ├── browserify-rsa@4.0.1
+168 silly currentTree ├── browserify-sign@4.0.4
+168 silly currentTree ├── browserify-zlib@0.1.4
+168 silly currentTree ├── buffer-xor@1.0.3
+168 silly currentTree ├── buffer@4.9.1
+168 silly currentTree ├── builtin-modules@1.1.1
+168 silly currentTree ├── builtin-status-codes@3.0.0
+168 silly currentTree ├── chokidar@1.7.0
+168 silly currentTree ├── cipher-base@1.0.4
+168 silly currentTree ├── co@4.6.0
+168 silly currentTree ├── code-point-at@1.1.0
+168 silly currentTree ├── concat-map@0.0.1
+168 silly currentTree ├── console-browserify@1.1.0
+168 silly currentTree ├── constants-browserify@1.0.0
+168 silly currentTree ├── core-util-is@1.0.2
+168 silly currentTree ├── create-ecdh@4.0.0
+168 silly currentTree ├── create-hash@1.1.3
+168 silly currentTree ├── create-hmac@1.1.6
+168 silly currentTree ├── cross-spawn@5.1.0
+168 silly currentTree ├── crypto-browserify@3.11.1
+168 silly currentTree ├── d@1.0.0
+168 silly currentTree ├── date-now@0.1.4
+168 silly currentTree ├── des.js@1.0.0
+168 silly currentTree ├── diffie-hellman@5.0.2
+168 silly currentTree ├── dom-walk@0.1.1
+168 silly currentTree ├── domain-browser@1.1.7
+168 silly currentTree ├── elliptic@6.4.0
+168 silly currentTree ├── emojis-list@2.1.0
+168 silly currentTree ├── enhanced-resolve@3.4.1
+168 silly currentTree ├── errno@0.1.4
+168 silly currentTree ├── error-ex@1.3.1
+168 silly currentTree ├── es5-ext@0.10.26
+168 silly currentTree ├── es6-iterator@2.0.1
+168 silly currentTree ├── es6-map@0.1.5
+168 silly currentTree ├── es6-set@0.1.5
+168 silly currentTree ├── es6-symbol@3.1.1
+168 silly currentTree ├── es6-weak-map@2.0.2
+168 silly currentTree ├── escope@3.6.0
+168 silly currentTree ├── esrecurse@4.2.0
+168 silly currentTree ├── estraverse@4.2.0
+168 silly currentTree ├── event-emitter@0.3.5
+168 silly currentTree ├── events@1.1.1
+168 silly currentTree ├── evp_bytestokey@1.0.0
+168 silly currentTree ├── execa@0.7.0
+168 silly currentTree ├── expand-brackets@0.1.5
+168 silly currentTree ├── expand-range@1.8.2
+168 silly currentTree ├── extglob@0.3.2
+168 silly currentTree ├── fast-deep-equal@1.0.0
+168 silly currentTree ├── filename-regex@2.0.1
+168 silly currentTree ├── fill-range@2.2.3
+168 silly currentTree ├── find-up@2.1.0
+168 silly currentTree ├── for-in@1.0.2
+168 silly currentTree ├── for-own@0.1.5
+168 silly currentTree ├── get-caller-file@1.0.2
+168 silly currentTree ├── get-stream@3.0.0
+168 silly currentTree ├── glob-base@0.3.0
+168 silly currentTree ├── glob-parent@2.0.0
+168 silly currentTree ├─┬ global@4.3.2
+168 silly currentTree │ └── process@0.5.2
+168 silly currentTree ├── graceful-fs@4.1.11
+168 silly currentTree ├── has-flag@2.0.0
+168 silly currentTree ├── hash-base@2.0.2
+168 silly currentTree ├── hash.js@1.1.3
+168 silly currentTree ├── hmac-drbg@1.0.1
+168 silly currentTree ├── hosted-git-info@2.5.0
+168 silly currentTree ├── https-browserify@0.0.1
+168 silly currentTree ├── ieee754@1.1.8
+168 silly currentTree ├── indexof@0.0.1
+168 silly currentTree ├── inherits@2.0.3
+168 silly currentTree ├── interpret@1.0.3
+168 silly currentTree ├── invert-kv@1.0.0
+168 silly currentTree ├── is-arrayish@0.2.1
+168 silly currentTree ├── is-binary-path@1.0.1
+168 silly currentTree ├── is-buffer@1.1.5
+168 silly currentTree ├── is-builtin-module@1.0.0
+168 silly currentTree ├── is-dotfile@1.0.3
+168 silly currentTree ├── is-equal-shallow@0.1.3
+168 silly currentTree ├── is-extendable@0.1.1
+168 silly currentTree ├── is-extglob@1.0.0
+168 silly currentTree ├── is-fullwidth-code-point@1.0.0
+168 silly currentTree ├── is-glob@2.0.1
+168 silly currentTree ├── is-number@2.1.0
+168 silly currentTree ├── is-posix-bracket@0.1.1
+168 silly currentTree ├── is-primitive@2.0.0
+168 silly currentTree ├── is-stream@1.1.0
+168 silly currentTree ├── isarray@1.0.0
+168 silly currentTree ├── isexe@2.0.0
+168 silly currentTree ├── isobject@2.1.0
+168 silly currentTree ├── json-loader@0.5.7
+168 silly currentTree ├── json-schema-traverse@0.3.1
+168 silly currentTree ├── json-stable-stringify@1.0.1
+168 silly currentTree ├── json5@0.5.1
+168 silly currentTree ├── jsonify@0.0.0
+168 silly currentTree ├── kind-of@3.2.2
+168 silly currentTree ├── lcid@1.0.0
+168 silly currentTree ├── load-json-file@2.0.0
+168 silly currentTree ├── loader-runner@2.3.0
+168 silly currentTree ├── loader-utils@1.1.0
+168 silly currentTree ├── locate-path@2.0.0
+168 silly currentTree ├── lodash@4.17.4
+168 silly currentTree ├── lru-cache@4.1.1
+168 silly currentTree ├── mem@1.1.0
+168 silly currentTree ├── memory-fs@0.4.1
+168 silly currentTree ├── micromatch@2.3.11
+168 silly currentTree ├── miller-rabin@4.0.0
+168 silly currentTree ├── mimic-fn@1.1.0
+168 silly currentTree ├── min-document@2.19.0
+168 silly currentTree ├── minimalistic-assert@1.0.0
+168 silly currentTree ├── minimalistic-crypto-utils@1.0.1
+168 silly currentTree ├── minimatch@3.0.4
+168 silly currentTree ├── minimist@0.0.8
+168 silly currentTree ├── mkdirp@0.5.1
+168 silly currentTree ├─┬ node-libs-browser@2.0.0
+168 silly currentTree │ └── string_decoder@0.10.31
+168 silly currentTree ├── normalize-package-data@2.4.0
+168 silly currentTree ├── normalize-path@2.1.1
+168 silly currentTree ├── npm-run-path@2.0.2
+168 silly currentTree ├── number-is-nan@1.0.1
+168 silly currentTree ├── object-assign@4.1.1
+168 silly currentTree ├── object.omit@2.0.1
+168 silly currentTree ├── os-browserify@0.2.1
+168 silly currentTree ├── os-locale@2.1.0
+168 silly currentTree ├── p-finally@1.0.0
+168 silly currentTree ├── p-limit@1.1.0
+168 silly currentTree ├── p-locate@2.0.0
+168 silly currentTree ├── pako@0.2.9
+168 silly currentTree ├── parse-asn1@5.1.0
+168 silly currentTree ├── parse-glob@3.0.4
+168 silly currentTree ├── parse-json@2.2.0
+168 silly currentTree ├── path-browserify@0.0.0
+168 silly currentTree ├── path-exists@3.0.0
+168 silly currentTree ├── path-is-absolute@1.0.1
+168 silly currentTree ├── path-key@2.0.1
+168 silly currentTree ├── path-type@2.0.0
+168 silly currentTree ├── pbkdf2@3.0.13
+168 silly currentTree ├── pify@2.3.0
+168 silly currentTree ├── preserve@0.2.0
+168 silly currentTree ├── process-nextick-args@1.0.7
+168 silly currentTree ├── process@0.11.10
+168 silly currentTree ├── prr@0.0.0
+168 silly currentTree ├── pseudomap@1.0.2
+168 silly currentTree ├── public-encrypt@4.0.0
+168 silly currentTree ├── punycode@1.4.1
+168 silly currentTree ├── querystring-es3@0.2.1
+168 silly currentTree ├── querystring@0.2.0
+168 silly currentTree ├─┬ randomatic@1.1.7
+168 silly currentTree │ ├─┬ is-number@3.0.0
+168 silly currentTree │ │ └── kind-of@3.2.2
+168 silly currentTree │ └── kind-of@4.0.0
+168 silly currentTree ├── randombytes@2.0.5
+168 silly currentTree ├── read-pkg-up@2.0.0
+168 silly currentTree ├── read-pkg@2.0.0
+168 silly currentTree ├── readable-stream@2.3.3
+168 silly currentTree ├── readdirp@2.1.0
+168 silly currentTree ├── regex-cache@0.4.3
+168 silly currentTree ├── remove-trailing-separator@1.0.2
+168 silly currentTree ├── repeat-element@1.1.2
+168 silly currentTree ├── repeat-string@1.6.1
+168 silly currentTree ├── require-directory@2.1.1
+168 silly currentTree ├── require-main-filename@1.0.1
+168 silly currentTree ├── ripemd160@2.0.1
+168 silly currentTree ├── safe-buffer@5.1.1
+168 silly currentTree ├── semver@5.4.1
+168 silly currentTree ├── set-blocking@2.0.0
+168 silly currentTree ├── set-immediate-shim@1.0.1
+168 silly currentTree ├── setimmediate@1.0.5
+168 silly currentTree ├── sha.js@2.4.8
+168 silly currentTree ├── shebang-command@1.2.0
+168 silly currentTree ├── shebang-regex@1.0.0
+168 silly currentTree ├── signal-exit@3.0.2
+168 silly currentTree ├── source-list-map@2.0.0
+168 silly currentTree ├── source-map@0.5.6
+168 silly currentTree ├── spdx-correct@1.0.2
+168 silly currentTree ├── spdx-expression-parse@1.0.4
+168 silly currentTree ├── spdx-license-ids@1.2.2
+168 silly currentTree ├── stream-browserify@2.0.1
+168 silly currentTree ├── stream-http@2.7.2
+168 silly currentTree ├── string_decoder@1.0.3
+168 silly currentTree ├─┬ string-width@2.1.1
+168 silly currentTree │ ├── ansi-regex@3.0.0
+168 silly currentTree │ ├── is-fullwidth-code-point@2.0.0
+168 silly currentTree │ └── strip-ansi@4.0.0
+168 silly currentTree ├── strip-ansi@3.0.1
+168 silly currentTree ├── strip-bom@3.0.0
+168 silly currentTree ├── strip-eof@1.0.0
+168 silly currentTree ├── supports-color@4.2.1
+168 silly currentTree ├── tapable@0.2.8
+168 silly currentTree ├── timers-browserify@2.0.3
+168 silly currentTree ├── to-arraybuffer@1.0.1
+168 silly currentTree ├── tty-browserify@0.0.0
+168 silly currentTree ├─┬ url@0.11.0
+168 silly currentTree │ └── punycode@1.3.2
+168 silly currentTree ├── util-deprecate@1.0.2
+168 silly currentTree ├─┬ util@0.10.3
+168 silly currentTree │ └── inherits@2.0.1
+168 silly currentTree ├── validate-npm-package-license@3.0.1
+168 silly currentTree ├── vm-browserify@0.0.4
+168 silly currentTree ├── watchpack@1.4.0
+168 silly currentTree ├── webpack-sources@1.0.1
+168 silly currentTree ├── which-module@2.0.0
+168 silly currentTree ├── which@1.3.0
+168 silly currentTree ├─┬ wrap-ansi@2.1.0
+168 silly currentTree │ └── string-width@1.0.2
+168 silly currentTree ├── xtend@4.0.1
+168 silly currentTree ├── y18n@3.2.1
+168 silly currentTree ├── yallist@2.1.2
+168 silly currentTree ├─┬ yargs-parser@7.0.0
+168 silly currentTree │ └── camelcase@4.1.0
+168 silly currentTree └─┬ yargs@8.0.2
+168 silly currentTree   ├── camelcase@4.1.0
+168 silly currentTree   └─┬ cliui@3.2.0
+168 silly currentTree     └── string-width@1.0.2
+169 silly idealTree sturmfrei-static@1.0.0
+169 silly idealTree ├─┬ acorn-dynamic-import@2.0.2
+169 silly idealTree │ └── acorn@4.0.13
+169 silly idealTree ├── acorn@5.1.1
+169 silly idealTree ├── ajv-keywords@2.1.0
+169 silly idealTree ├── ajv@5.2.2
+169 silly idealTree ├── ansi-regex@2.1.1
+169 silly idealTree ├── anymatch@1.3.2
+169 silly idealTree ├── arr-diff@2.0.0
+169 silly idealTree ├── arr-flatten@1.1.0
+169 silly idealTree ├── array-unique@0.2.1
+169 silly idealTree ├── asn1.js@4.9.1
+169 silly idealTree ├── assert@1.4.1
+169 silly idealTree ├── async-each@1.0.1
+169 silly idealTree ├── async@2.5.0
+169 silly idealTree ├── balanced-match@1.0.0
+169 silly idealTree ├── base64-js@1.2.1
+169 silly idealTree ├── big.js@3.1.3
+169 silly idealTree ├── binary-extensions@1.9.0
+169 silly idealTree ├── bn.js@4.11.7
+169 silly idealTree ├── brace-expansion@1.1.8
+169 silly idealTree ├── braces@1.8.5
+169 silly idealTree ├── brorand@1.1.0
+169 silly idealTree ├── browserify-aes@1.0.6
+169 silly idealTree ├── browserify-cipher@1.0.0
+169 silly idealTree ├── browserify-des@1.0.0
+169 silly idealTree ├── browserify-rsa@4.0.1
+169 silly idealTree ├── browserify-sign@4.0.4
+169 silly idealTree ├── browserify-zlib@0.1.4
+169 silly idealTree ├── buffer-xor@1.0.3
+169 silly idealTree ├── buffer@4.9.1
+169 silly idealTree ├── builtin-modules@1.1.1
+169 silly idealTree ├── builtin-status-codes@3.0.0
+169 silly idealTree ├── chokidar@1.7.0
+169 silly idealTree ├── cipher-base@1.0.4
+169 silly idealTree ├── co@4.6.0
+169 silly idealTree ├── code-point-at@1.1.0
+169 silly idealTree ├── concat-map@0.0.1
+169 silly idealTree ├── console-browserify@1.1.0
+169 silly idealTree ├── constants-browserify@1.0.0
+169 silly idealTree ├── core-util-is@1.0.2
+169 silly idealTree ├── create-ecdh@4.0.0
+169 silly idealTree ├── create-hash@1.1.3
+169 silly idealTree ├── create-hmac@1.1.6
+169 silly idealTree ├── cross-spawn@5.1.0
+169 silly idealTree ├── crypto-browserify@3.11.1
+169 silly idealTree ├── d@1.0.0
+169 silly idealTree ├── date-now@0.1.4
+169 silly idealTree ├── decamelize@1.2.0
+169 silly idealTree ├── des.js@1.0.0
+169 silly idealTree ├── diffie-hellman@5.0.2
+169 silly idealTree ├── dom-walk@0.1.1
+169 silly idealTree ├── domain-browser@1.1.7
+169 silly idealTree ├── elliptic@6.4.0
+169 silly idealTree ├── emojis-list@2.1.0
+169 silly idealTree ├── enhanced-resolve@3.4.1
+169 silly idealTree ├── errno@0.1.4
+169 silly idealTree ├── error-ex@1.3.1
+169 silly idealTree ├── es5-ext@0.10.26
+169 silly idealTree ├── es6-iterator@2.0.1
+169 silly idealTree ├── es6-map@0.1.5
+169 silly idealTree ├── es6-set@0.1.5
+169 silly idealTree ├── es6-symbol@3.1.1
+169 silly idealTree ├── es6-weak-map@2.0.2
+169 silly idealTree ├── escope@3.6.0
+169 silly idealTree ├── esrecurse@4.2.0
+169 silly idealTree ├── estraverse@4.2.0
+169 silly idealTree ├── event-emitter@0.3.5
+169 silly idealTree ├── events@1.1.1
+169 silly idealTree ├── evp_bytestokey@1.0.0
+169 silly idealTree ├── execa@0.7.0
+169 silly idealTree ├── expand-brackets@0.1.5
+169 silly idealTree ├── expand-range@1.8.2
+169 silly idealTree ├── extglob@0.3.2
+169 silly idealTree ├── fast-deep-equal@1.0.0
+169 silly idealTree ├── filename-regex@2.0.1
+169 silly idealTree ├── fill-range@2.2.3
+169 silly idealTree ├── find-up@2.1.0
+169 silly idealTree ├── for-in@1.0.2
+169 silly idealTree ├── for-own@0.1.5
+169 silly idealTree ├── get-caller-file@1.0.2
+169 silly idealTree ├── get-stream@3.0.0
+169 silly idealTree ├── glob-base@0.3.0
+169 silly idealTree ├── glob-parent@2.0.0
+169 silly idealTree ├─┬ global@4.3.2
+169 silly idealTree │ └── process@0.5.2
+169 silly idealTree ├── graceful-fs@4.1.11
+169 silly idealTree ├── has-flag@2.0.0
+169 silly idealTree ├── hash-base@2.0.2
+169 silly idealTree ├── hash.js@1.1.3
+169 silly idealTree ├── hmac-drbg@1.0.1
+169 silly idealTree ├── hosted-git-info@2.5.0
+169 silly idealTree ├── https-browserify@0.0.1
+169 silly idealTree ├── ieee754@1.1.8
+169 silly idealTree ├── indexof@0.0.1
+169 silly idealTree ├── inherits@2.0.3
+169 silly idealTree ├── interpret@1.0.3
+169 silly idealTree ├── invert-kv@1.0.0
+169 silly idealTree ├── is-arrayish@0.2.1
+169 silly idealTree ├── is-binary-path@1.0.1
+169 silly idealTree ├── is-buffer@1.1.5
+169 silly idealTree ├── is-builtin-module@1.0.0
+169 silly idealTree ├── is-dotfile@1.0.3
+169 silly idealTree ├── is-equal-shallow@0.1.3
+169 silly idealTree ├── is-extendable@0.1.1
+169 silly idealTree ├── is-extglob@1.0.0
+169 silly idealTree ├── is-fullwidth-code-point@1.0.0
+169 silly idealTree ├── is-glob@2.0.1
+169 silly idealTree ├── is-number@2.1.0
+169 silly idealTree ├── is-posix-bracket@0.1.1
+169 silly idealTree ├── is-primitive@2.0.0
+169 silly idealTree ├── is-stream@1.1.0
+169 silly idealTree ├── isarray@1.0.0
+169 silly idealTree ├── isexe@2.0.0
+169 silly idealTree ├── isobject@2.1.0
+169 silly idealTree ├── json-loader@0.5.7
+169 silly idealTree ├── json-schema-traverse@0.3.1
+169 silly idealTree ├── json-stable-stringify@1.0.1
+169 silly idealTree ├── json5@0.5.1
+169 silly idealTree ├── jsonify@0.0.0
+169 silly idealTree ├── kind-of@3.2.2
+169 silly idealTree ├── lcid@1.0.0
+169 silly idealTree ├── load-json-file@2.0.0
+169 silly idealTree ├── loader-runner@2.3.0
+169 silly idealTree ├── loader-utils@1.1.0
+169 silly idealTree ├── locate-path@2.0.0
+169 silly idealTree ├── lodash@4.17.4
+169 silly idealTree ├── lru-cache@4.1.1
+169 silly idealTree ├── mem@1.1.0
+169 silly idealTree ├── memory-fs@0.4.1
+169 silly idealTree ├── micromatch@2.3.11
+169 silly idealTree ├── miller-rabin@4.0.0
+169 silly idealTree ├── mimic-fn@1.1.0
+169 silly idealTree ├── min-document@2.19.0
+169 silly idealTree ├── minimalistic-assert@1.0.0
+169 silly idealTree ├── minimalistic-crypto-utils@1.0.1
+169 silly idealTree ├── minimatch@3.0.4
+169 silly idealTree ├── minimist@0.0.8
+169 silly idealTree ├── mkdirp@0.5.1
+169 silly idealTree ├── node-bin-setup@1.0.6
+169 silly idealTree ├─┬ node-libs-browser@2.0.0
+169 silly idealTree │ └── string_decoder@0.10.31
+169 silly idealTree ├── node@8.2.1
+169 silly idealTree ├── normalize-package-data@2.4.0
+169 silly idealTree ├── normalize-path@2.1.1
+169 silly idealTree ├── npm-run-path@2.0.2
+169 silly idealTree ├── number-is-nan@1.0.1
+169 silly idealTree ├── object-assign@4.1.1
+169 silly idealTree ├── object.omit@2.0.1
+169 silly idealTree ├── os-browserify@0.2.1
+169 silly idealTree ├── os-locale@2.1.0
+169 silly idealTree ├── p-finally@1.0.0
+169 silly idealTree ├── p-limit@1.1.0
+169 silly idealTree ├── p-locate@2.0.0
+169 silly idealTree ├── pako@0.2.9
+169 silly idealTree ├── parse-asn1@5.1.0
+169 silly idealTree ├── parse-glob@3.0.4
+169 silly idealTree ├── parse-json@2.2.0
+169 silly idealTree ├── path-browserify@0.0.0
+169 silly idealTree ├── path-exists@3.0.0
+169 silly idealTree ├── path-is-absolute@1.0.1
+169 silly idealTree ├── path-key@2.0.1
+169 silly idealTree ├── path-type@2.0.0
+169 silly idealTree ├── pbkdf2@3.0.13
+169 silly idealTree ├── pify@2.3.0
+169 silly idealTree ├── preserve@0.2.0
+169 silly idealTree ├── process-nextick-args@1.0.7
+169 silly idealTree ├── process@0.11.10
+169 silly idealTree ├── prr@0.0.0
+169 silly idealTree ├── pseudomap@1.0.2
+169 silly idealTree ├── public-encrypt@4.0.0
+169 silly idealTree ├── punycode@1.4.1
+169 silly idealTree ├── querystring-es3@0.2.1
+169 silly idealTree ├── querystring@0.2.0
+169 silly idealTree ├─┬ randomatic@1.1.7
+169 silly idealTree │ ├─┬ is-number@3.0.0
+169 silly idealTree │ │ └── kind-of@3.2.2
+169 silly idealTree │ └── kind-of@4.0.0
+169 silly idealTree ├── randombytes@2.0.5
+169 silly idealTree ├── read-pkg-up@2.0.0
+169 silly idealTree ├── read-pkg@2.0.0
+169 silly idealTree ├── readable-stream@2.3.3
+169 silly idealTree ├── readdirp@2.1.0
+169 silly idealTree ├── regex-cache@0.4.3
+169 silly idealTree ├── remove-trailing-separator@1.0.2
+169 silly idealTree ├── repeat-element@1.1.2
+169 silly idealTree ├── repeat-string@1.6.1
+169 silly idealTree ├── require-directory@2.1.1
+169 silly idealTree ├── require-main-filename@1.0.1
+169 silly idealTree ├── ripemd160@2.0.1
+169 silly idealTree ├── safe-buffer@5.1.1
+169 silly idealTree ├── semver@5.4.1
+169 silly idealTree ├── set-blocking@2.0.0
+169 silly idealTree ├── set-immediate-shim@1.0.1
+169 silly idealTree ├── setimmediate@1.0.5
+169 silly idealTree ├── sha.js@2.4.8
+169 silly idealTree ├── shebang-command@1.2.0
+169 silly idealTree ├── shebang-regex@1.0.0
+169 silly idealTree ├── signal-exit@3.0.2
+169 silly idealTree ├── source-list-map@2.0.0
+169 silly idealTree ├── source-map@0.5.6
+169 silly idealTree ├── spdx-correct@1.0.2
+169 silly idealTree ├── spdx-expression-parse@1.0.4
+169 silly idealTree ├── spdx-license-ids@1.2.2
+169 silly idealTree ├── stream-browserify@2.0.1
+169 silly idealTree ├── stream-http@2.7.2
+169 silly idealTree ├── string_decoder@1.0.3
+169 silly idealTree ├─┬ string-width@2.1.1
+169 silly idealTree │ ├── ansi-regex@3.0.0
+169 silly idealTree │ ├── is-fullwidth-code-point@2.0.0
+169 silly idealTree │ └── strip-ansi@4.0.0
+169 silly idealTree ├── strip-ansi@3.0.1
+169 silly idealTree ├── strip-bom@3.0.0
+169 silly idealTree ├── strip-eof@1.0.0
+169 silly idealTree ├── supports-color@4.2.1
+169 silly idealTree ├── tapable@0.2.8
+169 silly idealTree ├── timers-browserify@2.0.3
+169 silly idealTree ├── to-arraybuffer@1.0.1
+169 silly idealTree ├── tty-browserify@0.0.0
+169 silly idealTree ├─┬ url@0.11.0
+169 silly idealTree │ └── punycode@1.3.2
+169 silly idealTree ├── util-deprecate@1.0.2
+169 silly idealTree ├─┬ util@0.10.3
+169 silly idealTree │ └── inherits@2.0.1
+169 silly idealTree ├── validate-npm-package-license@3.0.1
+169 silly idealTree ├── vm-browserify@0.0.4
+169 silly idealTree ├── watchpack@1.4.0
+169 silly idealTree ├── webpack-sources@1.0.1
+169 silly idealTree ├── which-module@2.0.0
+169 silly idealTree ├── which@1.3.0
+169 silly idealTree ├─┬ wrap-ansi@2.1.0
+169 silly idealTree │ └── string-width@1.0.2
+169 silly idealTree ├── xtend@4.0.1
+169 silly idealTree ├── y18n@3.2.1
+169 silly idealTree ├── yallist@2.1.2
+169 silly idealTree ├─┬ yargs-parser@7.0.0
+169 silly idealTree │ └── camelcase@4.1.0
+169 silly idealTree └─┬ yargs@8.0.2
+169 silly idealTree   ├── camelcase@4.1.0
+169 silly idealTree   └─┬ cliui@3.2.0
+169 silly idealTree     └── string-width@1.0.2
+170 silly generateActionsToTake Starting
+171 silly install generateActionsToTake
+172 silly generateActionsToTake Finishing
+173 silly diffTrees action count 3
+174 silly diffTrees add decamelize@1.2.0
+175 silly diffTrees add node-bin-setup@1.0.6
+176 silly diffTrees add node@8.2.1
+177 silly decomposeActions action count 24
+178 silly decomposeActions fetch decamelize@1.2.0
+179 silly decomposeActions extract decamelize@1.2.0
+180 silly decomposeActions test decamelize@1.2.0
+181 silly decomposeActions preinstall decamelize@1.2.0
+182 silly decomposeActions build decamelize@1.2.0
+183 silly decomposeActions install decamelize@1.2.0
+184 silly decomposeActions postinstall decamelize@1.2.0
+185 silly decomposeActions finalize decamelize@1.2.0
+186 silly decomposeActions fetch node-bin-setup@1.0.6
+187 silly decomposeActions extract node-bin-setup@1.0.6
+188 silly decomposeActions test node-bin-setup@1.0.6
+189 silly decomposeActions preinstall node-bin-setup@1.0.6
+190 silly decomposeActions build node-bin-setup@1.0.6
+191 silly decomposeActions install node-bin-setup@1.0.6
+192 silly decomposeActions postinstall node-bin-setup@1.0.6
+193 silly decomposeActions finalize node-bin-setup@1.0.6
+194 silly decomposeActions fetch node@8.2.1
+195 silly decomposeActions extract node@8.2.1
+196 silly decomposeActions test node@8.2.1
+197 silly decomposeActions preinstall node@8.2.1
+198 silly decomposeActions build node@8.2.1
+199 silly decomposeActions install node@8.2.1
+200 silly decomposeActions postinstall node@8.2.1
+201 silly decomposeActions finalize node@8.2.1
+202 silly executeActions Starting
+203 silly install executeActions
+204 silly doSerial global-install 0
+205 silly doParallel fetch 3
+206 verbose lock using /home/sturmfrei/.npm/_locks/staging-cb9a97a1aba5149e.lock for /home/sturmfrei/sturmfrei/sturmfrei-static/node_modules/.staging
+207 silly doParallel extract 3
+208 silly extract decamelize@1.2.0
+209 silly extract node-bin-setup@1.0.6
+210 silly extract node@8.2.1
+211 verbose unbuild node_modules/.staging/decamelize-24fd0c47
+212 verbose unbuild node_modules/.staging/node-bin-setup-2d3d469a
+213 verbose unbuild node_modules/.staging/node-516f5c5d
+214 silly gentlyRm /home/sturmfrei/sturmfrei/sturmfrei-static/node_modules/.staging/decamelize-24fd0c47 is being purged from base /home/sturmfrei/sturmfrei/sturmfrei-static
+215 verbose gentlyRm don't care about contents; nuking /home/sturmfrei/sturmfrei/sturmfrei-static/node_modules/.staging/decamelize-24fd0c47
+216 silly gentlyRm /home/sturmfrei/sturmfrei/sturmfrei-static/node_modules/.staging/node-bin-setup-2d3d469a is being purged from base /home/sturmfrei/sturmfrei/sturmfrei-static
+217 verbose gentlyRm don't care about contents; nuking /home/sturmfrei/sturmfrei/sturmfrei-static/node_modules/.staging/node-bin-setup-2d3d469a
+218 verbose tar unpack /home/sturmfrei/.npm/decamelize/1.2.0/package.tgz
+219 verbose tar unpacking to /home/sturmfrei/sturmfrei/sturmfrei-static/node_modules/.staging/decamelize-24fd0c47
+220 silly gentlyRm /home/sturmfrei/sturmfrei/sturmfrei-static/node_modules/.staging/decamelize-24fd0c47 is being purged
+221 verbose gentlyRm don't care about contents; nuking /home/sturmfrei/sturmfrei/sturmfrei-static/node_modules/.staging/decamelize-24fd0c47
+222 verbose tar unpack /home/sturmfrei/.npm/node-bin-setup/1.0.6/package.tgz
+223 verbose tar unpacking to /home/sturmfrei/sturmfrei/sturmfrei-static/node_modules/.staging/node-bin-setup-2d3d469a
+224 silly gentlyRm /home/sturmfrei/sturmfrei/sturmfrei-static/node_modules/.staging/node-bin-setup-2d3d469a is being purged
+225 verbose gentlyRm don't care about contents; nuking /home/sturmfrei/sturmfrei/sturmfrei-static/node_modules/.staging/node-bin-setup-2d3d469a
+226 silly gentlyRm /home/sturmfrei/sturmfrei/sturmfrei-static/node_modules/.staging/node-516f5c5d is being purged from base /home/sturmfrei/sturmfrei/sturmfrei-static
+227 verbose gentlyRm don't care about contents; nuking /home/sturmfrei/sturmfrei/sturmfrei-static/node_modules/.staging/node-516f5c5d
+228 silly gunzTarPerm modes [ '775', '664' ]
+229 silly gunzTarPerm modes [ '775', '664' ]
+230 verbose tar unpack /home/sturmfrei/.npm/node/8.2.1/package.tgz
+231 verbose tar unpacking to /home/sturmfrei/sturmfrei/sturmfrei-static/node_modules/.staging/node-516f5c5d
+232 silly gentlyRm /home/sturmfrei/sturmfrei/sturmfrei-static/node_modules/.staging/node-516f5c5d is being purged
+233 verbose gentlyRm don't care about contents; nuking /home/sturmfrei/sturmfrei/sturmfrei-static/node_modules/.staging/node-516f5c5d
+234 silly gunzTarPerm modes [ '775', '664' ]
+235 silly gunzTarPerm extractEntry package.json
+236 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+237 silly gunzTarPerm extractEntry package.json
+238 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+239 silly gunzTarPerm extractEntry package.json
+240 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+241 silly gunzTarPerm extractEntry index.js
+242 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+243 silly gunzTarPerm extractEntry license
+244 silly gunzTarPerm modified mode [ 'license', 420, 436 ]
+245 silly gunzTarPerm extractEntry index.js
+246 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+247 silly gunzTarPerm extractEntry README.md
+248 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+249 silly gunzTarPerm extractEntry installArchSpecificPackage.js
+250 silly gunzTarPerm modified mode [ 'installArchSpecificPackage.js', 420, 436 ]
+251 silly gunzTarPerm extractEntry readme.md
+252 silly gunzTarPerm modified mode [ 'readme.md', 420, 436 ]
+253 silly gentlyRm /home/sturmfrei/sturmfrei/sturmfrei-static/node_modules/.staging/node-bin-setup-2d3d469a/node_modules is being purged
+254 verbose gentlyRm don't care about contents; nuking /home/sturmfrei/sturmfrei/sturmfrei-static/node_modules/.staging/node-bin-setup-2d3d469a/node_modules
+255 silly gentlyRm /home/sturmfrei/sturmfrei/sturmfrei-static/node_modules/.staging/node-516f5c5d/node_modules is being purged
+256 verbose gentlyRm don't care about contents; nuking /home/sturmfrei/sturmfrei/sturmfrei-static/node_modules/.staging/node-516f5c5d/node_modules
+257 silly gentlyRm /home/sturmfrei/sturmfrei/sturmfrei-static/node_modules/.staging/decamelize-24fd0c47/node_modules is being purged
+258 verbose gentlyRm don't care about contents; nuking /home/sturmfrei/sturmfrei/sturmfrei-static/node_modules/.staging/decamelize-24fd0c47/node_modules
+259 silly doParallel preinstall 3
+260 silly preinstall decamelize@1.2.0 /home/sturmfrei/sturmfrei/sturmfrei-static/node_modules/.staging/decamelize-24fd0c47
+261 info lifecycle decamelize@1.2.0~preinstall: decamelize@1.2.0
+262 silly preinstall node-bin-setup@1.0.6 /home/sturmfrei/sturmfrei/sturmfrei-static/node_modules/.staging/node-bin-setup-2d3d469a
+263 info lifecycle node-bin-setup@1.0.6~preinstall: node-bin-setup@1.0.6
+264 silly preinstall node@8.2.1 /home/sturmfrei/sturmfrei/sturmfrei-static/node_modules/.staging/node-516f5c5d
+265 info lifecycle node@8.2.1~preinstall: node@8.2.1
+266 silly lifecycle decamelize@1.2.0~preinstall: no script for preinstall, continuing
+267 silly lifecycle node-bin-setup@1.0.6~preinstall: no script for preinstall, continuing
+268 verbose lifecycle node@8.2.1~preinstall: unsafe-perm in lifecycle true
+269 verbose lifecycle node@8.2.1~preinstall: PATH: /usr/share/npm/bin/node-gyp-bin:/home/sturmfrei/sturmfrei/sturmfrei-static/node_modules/.staging/node-516f5c5d/node_modules/.bin:/home/sturmfrei/sturmfrei/sturmfrei-static/node_modules/.bin:/home/sturmfrei/bin:/home/sturmfrei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+270 verbose lifecycle node@8.2.1~preinstall: CWD: /home/sturmfrei/sturmfrei/sturmfrei-static/node_modules/.staging/node-516f5c5d
+271 silly lifecycle node@8.2.1~preinstall: Args: [ '-c', 'node installArchSpecificPackage' ]
+272 info lifecycle node@8.2.1~preinstall: Failed to exec preinstall script
+273 verbose unlock done using /home/sturmfrei/.npm/_locks/staging-cb9a97a1aba5149e.lock for /home/sturmfrei/sturmfrei/sturmfrei-static/node_modules/.staging
+274 silly rollbackFailedOptional Starting
+275 silly rollbackFailedOptional Finishing
+276 silly runTopLevelLifecycles Starting
+277 silly runTopLevelLifecycles Finishing
+278 silly install printInstalled
+279 warn optional Skipping failed optional dependency /chokidar/fsevents:
+280 warn notsup Not compatible with your operating system or architecture: fsevents@1.1.2
+281 warn sturmfrei-static@1.0.0 No description
+282 warn sturmfrei-static@1.0.0 No repository field.
+283 verbose stack Error: node@8.2.1 preinstall: `node installArchSpecificPackage`
+283 verbose stack spawn ENOENT
+283 verbose stack     at ChildProcess.<anonymous> (/usr/share/npm/lib/utils/spawn.js:17:16)
+283 verbose stack     at emitTwo (events.js:87:13)
+283 verbose stack     at ChildProcess.emit (events.js:172:7)
+283 verbose stack     at maybeClose (internal/child_process.js:821:16)
+283 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+284 verbose pkgid node@8.2.1
+285 verbose cwd /home/sturmfrei/sturmfrei/sturmfrei-static
+286 error Linux 4.10.0-30-generic
+287 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "node"
+288 error node v4.2.6
+289 error npm  v3.5.2
+290 error file sh
+291 error code ELIFECYCLE
+292 error errno ENOENT
+293 error syscall spawn
+294 error node@8.2.1 preinstall: `node installArchSpecificPackage`
+294 error spawn ENOENT
+295 error Failed at the node@8.2.1 preinstall script 'node installArchSpecificPackage'.
+295 error Make sure you have the latest version of node.js and npm installed.
+295 error If you do, this is most likely a problem with the node package,
+295 error not with npm itself.
+295 error Tell the author that this fails on your system:
+295 error     node installArchSpecificPackage
+295 error You can get information on how to open an issue for this project with:
+295 error     npm bugs node
+295 error Or if that isn't available, you can get their info via:
+295 error     npm owner ls node
+295 error There is likely additional logging output above.
+296 verbose exit [ 1, true ]
