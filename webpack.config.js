@@ -3,7 +3,7 @@ var html_plugin =  require('html-webpack-plugin');
 var webpack =  require('webpack');
 
 module.exports = {
-  entry: './src/js/index.js',
+  entry: './client/index.js',
   output:{
     filename: './dist/bundle.js',
     path: path.resolve(__dirname, 'dist')
